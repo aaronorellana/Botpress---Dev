@@ -12,6 +12,24 @@ welcome: # this is the #welcome bloc referenced in index.js
   - text: You can say goodbye now
     typing: 1s
 
+
+profil :
+  - typing: 2s
+  - text: 
+      name: Aaron Orellana
+      job: Développeur Fron-end
+      skills:
+        - HTML5
+        - CSS 3
+        - LESS
+        - SCSS-SASS
+        - PHP
+        - VUE.JS
+        - WORDPRESS
+  - wait: 5s
+  - text: You can say goodbye now
+    typing: 1s
+
 goodbye:
   - text: You are leaving because of reason {{reason}}
     typing: true
