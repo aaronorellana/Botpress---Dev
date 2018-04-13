@@ -30,8 +30,6 @@ module.exports = function(bp) {
     event.reply('#blague')
   })
 
-  blague
-
   // You can also pass a matcher object to better filter events
   bp.hear({
     type: /message|text/i,
