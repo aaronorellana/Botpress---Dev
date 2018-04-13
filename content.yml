@@ -8,11 +8,11 @@ welcome: # this is the #welcome bloc referenced in index.js
   - text: Qu'es que tu veux que je fasse aujourd'hui pour toi ?
     typing: 2s
   - text: 'Tu peux me demander que :'
-    text: # Picks one randomly
-      - 'Tu veux une blague en écrivant : Une Blague'
-      - 'Je peux te dire qui est le plus beau en écrivant : Le Sexy'
-      - "Je peux la température d'aujourd hui : Le Sexy"
-      - 'Juste dire : Bye'
+    typing: 2s
+  - text: 'Tu veux une blague en écrivant : Une Blague'
+  - text: 'Je peux te dire qui est le plus beau en écrivant : Le Sexy'
+  - text: 'Je veux la température : Température'
+  - text: 'Tu peux juste dire : Bye'
 
 blague: 
   - typing: true
