@@ -26,6 +26,12 @@ module.exports = function(bp) {
     event.reply('#welcome') // See the file `content.yml` to see the block
   })
 
+  bp.hear(/blague|Une Blague|une blague/i, (event, next) => {
+    event.reply('#blague')
+  })
+
+  blague
+
   // You can also pass a matcher object to better filter events
   bp.hear({
     type: /message|text/i,
