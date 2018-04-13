@@ -47,9 +47,9 @@ module.exports = {
     Access control of admin panel
   */
   login: {
-    enabled: process.env.NODE_ENV === 'final',
+    enabled: process.env.NODE_ENV === 'production',
     tokenExpiry: '6 hours',
-    password: process.env.BOTPRESS_PASSWORD || 'password',
+    password: process.env.BOTPRESS_PASSWORD || 'Hechos238',
     maxAttempts: 3,
     resetAfter: 10 * 60 * 1000 // 10 minutes
   },
